@@ -18,7 +18,7 @@ const multer=require('multer')
 
 
 app.use(cors({
-    origin:["https://chat-mee-up.herokuapp.com/"],
+    origin:["https://chat-mee-up.herokuapp.com"],
     // origin:["http://localhost:3000"],
     methods:["GET", "POST", "PUT", "DELETE"],
     credentials:true

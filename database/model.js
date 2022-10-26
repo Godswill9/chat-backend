@@ -4,7 +4,7 @@ const connectDB=mysql.createConnection({
     host:process.env.MYSQL_CHAT_HOST,
     user: process.env.MYSQL_CHAT_USER,
     password: process.env.MYSQL_CHAT_PASSWORD,
-    port:3306,
+    port:process.env.MYSQL_CHAT_PORT,
     database:process.env.MYSQL_CHAT_DATABASE
 })
 connectDB.connect((err)=>{
